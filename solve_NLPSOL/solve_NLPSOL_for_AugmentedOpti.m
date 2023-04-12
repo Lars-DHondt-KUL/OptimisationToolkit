@@ -1,9 +1,8 @@
 function [w_opt,stats] = solve_NLPSOL_for_AugmentedOpti(opti,optionssol,solver_name)
 % --------------------------------------------------------------------------
 % solve_NLPSOL_for_AugmentedOpti
-%   This functions scales the muscle-tendon parameter values. See
-%   "read_and_scale_MTparameters" for information on these parameters.
-%   Scaling depends on the user settings.
+%   Solve an optimisation problem with bounds.
+%   From https://github.com/antoinefalisse/3dpredictsim/blob/master/VariousFunctions/solve_NLPSOL.m
 % 
 % INPUT:
 %   - opti -
